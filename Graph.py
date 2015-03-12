@@ -1,4 +1,4 @@
-class Vertix:
+class Vertex:
 
     def __init__ ( self, name, parent, color ):
             self.name = name
@@ -32,7 +32,7 @@ class Graph:
 
     def generateVertices( self, size ):
         for index in range( size ):
-            v = Vertix( index, " ", "white" )
+            v = Vertex( index, " ", "white" )
             self.addVertices( v )
         return self.vertices
 
